@@ -15,8 +15,8 @@ body {
   overflow-x: hidden;
 }
 
-a {
-  color: #1dc8cd;
+a{
+  color: #f9a310;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #1dc9ce;
+  color: #0c0c0c;
   outline: none;
   text-decoration: none;
 }
@@ -75,7 +75,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #1dc8cd;
+  background: #090909;
   color: #fff;
 }
 
@@ -88,7 +88,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 90px;
+  height: 92px;
   transition: all 0.5s;
   z-index: 997;
   background: linear-gradient(45deg, #1de099, #1dc8cd);
@@ -99,8 +99,8 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: linear-gradient(45deg, #010604, #1dc8cd);
-  height: 70px;
+  background: linear-gradient(45deg, #101111, #010f0f);
+  height: 80px;
   transition: all 0.5s;
 }
 
@@ -379,7 +379,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #1dc8cd;
+  color: #131414;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -392,14 +392,16 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(5, 12, 10, 0.8), rgba(29, 200, 205, 0.8)), url("../img/card2.png") center top no-repeat;
+  background: url("../img/background-mainpage-singh.png")  center  no-repeat, left no-repeat;
   background-size: cover;
   position: relative;
+  
 }
 
 @media (min-width: 1025px) {
   #hero {
     background-attachment: fixed;
+   
   }
 }
 
@@ -493,6 +495,7 @@ h6 {
   left: calc(50% + 54px);
   bottom: 0;
   top: 30px;
+  
 }
 
 #hero .product-screens .product-screen-2 {
@@ -1395,19 +1398,35 @@ section {
    width: 150px;
    height: 100px;
    margin-left: 20px;
-   color: #179ca0;
-   background-color: #011516;
+   color: #f9a310;
+   background-color: #000707;
    transition: 2s;
    cursor: pointer;
    border-radius: 15px;
-}
+    
+  }
+
 .cardbtn:hover{
-  box-shadow: inset 0px -140px 0px 0px rgb(198, 147, 147);
+  box-shadow: inset 0px -140px 0px 0px  rgb(248, 248, 245);
+  color: #000;
+  
 }
+
+
 #card-btn{
     margin-left:308px ;
     
 }
 .cardbtn-icon{
    font-size: xx-large;
+}
+
+
+#logo-img{
+  width: 200px;
+  height: 190px;
+  padding-top: 10px;
+}
+.btn-a:hover{
+   color: #000;
 }

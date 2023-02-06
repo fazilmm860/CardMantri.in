@@ -1,0 +1,7 @@
+*body{
+    display: flex;
+}
+.coming-soon{
+    width: 100px;
+    height: 100px;
+}

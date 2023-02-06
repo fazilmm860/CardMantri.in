@@ -15,8 +15,8 @@ body {
   overflow-x: hidden;
 }
 
-a {
-  color: #1dc8cd;
+a{
+  color: #f9a310;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #1dc9ce;
+  color: #0c0c0c;
   outline: none;
   text-decoration: none;
 }
@@ -51,7 +51,7 @@ h6 {
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #101010, #f5c60a);
   color: #fff;
   border-radius: 4px 4px 0 0;
   right: 15px;
@@ -75,7 +75,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #1dc8cd;
+  background: #090909;
   color: #fff;
 }
 
@@ -88,7 +88,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 90px;
+  height: 92px;
   transition: all 0.5s;
   z-index: 997;
   background: linear-gradient(45deg, #1de099, #1dc8cd);
@@ -99,8 +99,8 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: linear-gradient(45deg, #010604, #1dc8cd);
-  height: 70px;
+  background: linear-gradient(45deg, #101111, #010f0f);
+  height: 80px;
   transition: all 0.5s;
 }
 
@@ -216,8 +216,8 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: #050505;
+  box-shadow: 0px 0px 30px rgba(11, 11, 11, 0.25);
   transition: 0.3s;
 }
 
@@ -229,7 +229,7 @@ h6 {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #333333;
+  color: #534d4d;
 }
 
 .navbar .dropdown ul a i {
@@ -239,7 +239,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #1dc8cd;
+  color: #f9a310;
 }
 
 .navbar .dropdown:hover>ul {
@@ -379,7 +379,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #1dc8cd;
+  color: #131414;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -392,14 +392,16 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(5, 12, 10, 0.8), rgba(29, 200, 205, 0.8)), url("../img/card2.png") center top no-repeat;
+  background: url("../img/background-mainpage-singh.png")  center  no-repeat, left no-repeat;
   background-size: cover;
   position: relative;
+  
 }
 
 @media (min-width: 1025px) {
   #hero {
     background-attachment: fixed;
+   
   }
 }
 
@@ -468,8 +470,9 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  color: #1dc8cd;
+  color: #090909;
   background: #fff;
+  font-weight: bolder;
 }
 
 #hero .product-screens {
@@ -493,6 +496,7 @@ h6 {
   left: calc(50% + 54px);
   bottom: 0;
   top: 30px;
+   
 }
 
 #hero .product-screens .product-screen-2 {
@@ -500,7 +504,8 @@ h6 {
   z-index: 20;
   left: calc(50% - 154px);
   bottom: 0;
-  top: 90px;
+  top: 110px;
+  
 }
 
 #hero .product-screens .product-screen-3 {
@@ -508,7 +513,8 @@ h6 {
   z-index: 10;
   left: calc(50% - 374px);
   bottom: 0;
-  top: 150px;
+  top: 170px;
+
 }
 
 @media (max-width: 767px) {
@@ -550,8 +556,8 @@ section {
   display: block;
   width: 60px;
   height: 3px;
-  background: #1dc8cd;
-  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  background: #31cd1d;
+  background: linear-gradient(0deg, #75cd1d 0%, #55fabe 100%);
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -838,7 +844,7 @@ section {
 --------------------------------*/
 #call-to-action {
   overflow: hidden;
-  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(199, 132, 17, 0.65), rgba(11, 11, 11, 0.981)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -1395,19 +1401,35 @@ section {
    width: 150px;
    height: 100px;
    margin-left: 20px;
-   color: #179ca0;
-   background-color: #011516;
+   color: #f9a310;
+   background-color: #000707;
    transition: 2s;
    cursor: pointer;
    border-radius: 15px;
-}
+    
+  }
+
 .cardbtn:hover{
-  box-shadow: inset 0px -140px 0px 0px rgb(198, 147, 147);
+  box-shadow: inset 0px -140px 0px 0px  rgb(248, 248, 245);
+  color: #000;
+  
 }
+
+
 #card-btn{
     margin-left:308px ;
     
 }
 .cardbtn-icon{
    font-size: xx-large;
+}
+
+
+#logo-img{
+  width: 200px;
+  height: 190px;
+  padding-top: 10px;
+}
+.btn-a:hover{
+   color: #000;
 }

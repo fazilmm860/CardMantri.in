@@ -225,9 +225,10 @@ h6 {
   min-width: 200px;
 }
 
+
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: none;
   color: #534d4d;
 }

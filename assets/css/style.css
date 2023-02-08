@@ -69,7 +69,7 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #030303, #e7750b);
   color: #fff;
   outline: none;
 }
@@ -84,6 +84,10 @@ h6 {
   opacity: 1;
 }
 
+
+
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -91,7 +95,7 @@ h6 {
   height: 92px;
   transition: all 0.5s;
   z-index: 997;
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, rgb(4, 4, 4), #cd8c1d);
 }
 
 #header.header-transparent {
@@ -551,6 +555,8 @@ section {
   padding-bottom: 40px;
   color: #777;
   font-style: italic;
+  font-weight: bold
+  ;
 }
 
 .section-header .section-divider {
@@ -566,7 +572,7 @@ section {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #eff5f5;
+  background: #ffffff;
 }
 
 /*--------------------------------------------------------------
@@ -884,7 +890,7 @@ section {
 
 #call-to-action .cta-btn:hover {
   background:linear-gradient(#f9a310,#000 ) ;
-  border: 2px solid #black;
+  border: 2px solid #000;
 }
 
 /* More Features Section
@@ -897,10 +903,12 @@ section {
 #more-features .box {
   padding: 40px;
   margin-bottom: 30px;
-  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
-  background: #fff;
+  box-shadow: 0px 0px 30px 
+  rgba(149, 154, 166, 0.15);
+  background: #141414;
   transition: 0.4s;
   height: 100%;
+  border-radius: 55px;
 }
 
 #more-features .icon {
@@ -930,7 +938,7 @@ section {
 }
 
 #more-features h4 a {
-  color: #111;
+  color: #f2ebeb;
 }
 
 #more-features p {
@@ -938,6 +946,7 @@ section {
   margin-left: 100px;
   margin-bottom: 0;
   line-height: 24px;
+  color: whitesmoke;
 }
 
 @media (max-width: 767px) {

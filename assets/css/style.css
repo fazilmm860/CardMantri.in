@@ -884,7 +884,7 @@ section {
 
 #call-to-action .cta-btn:hover {
   background:linear-gradient(#f9a310,#000 ) ;
-  border: 2px solid #black;
+  border: 2px solid #000;
 }
 
 /* More Features Section

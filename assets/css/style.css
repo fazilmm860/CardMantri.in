@@ -51,21 +51,22 @@ h6 {
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
-  background: linear-gradient(45deg, #101010, #f5c60a);
+  background: linear-gradient(45deg, #b3b1b1, #3be50c);
   color: #fff;
-  border-radius: 4px 4px 0 0;
+  border-radius: 50px;
   right: 15px;
   bottom: 0;
   transition: none;
   visibility: hidden;
   opacity: 0;
-  width: 64px;
-  height: 34px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
 }
 
 .back-to-top i {
   line-height: 0;
-  font-size: 20px;
+  font-size: 50px;
 }
 
 .back-to-top:focus {

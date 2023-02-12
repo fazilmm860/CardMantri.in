@@ -51,7 +51,7 @@ h6 {
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
-  background: linear-gradient(45deg, #b3b1b1, #f5a206);
+  background: linear-gradient(45deg, #066606, #46e646);
   color: #fff;
   border-radius: 50px;
   right: 15px;
@@ -70,7 +70,7 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: linear-gradient(45deg, #030303, #e7750b);
+  background: linear-gradient(45deg, #030303, #24d224);
   color: #fff;
   outline: none;
 }
@@ -1411,7 +1411,7 @@ section {
 .cardbtn{
    width: 150px;
    height: 100px;
-   margin-left: 20px;
+   margin-left: 120px;
    color: #f9a310;
    background-color: #000707;
    transition: 2s;
